@@ -8,8 +8,8 @@ def second_challenge
 
   #code your solution here!
   ary = []
-  groceries.each do |key, value|
-    ary.concat(value)
+  for i in 0...groceries.values.length
+    ary.concat(groceries.values[i])
   end
- return ary
+  return ary
 end
