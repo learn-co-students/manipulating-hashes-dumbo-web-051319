@@ -9,8 +9,6 @@ def second_challenge
 
   #code your solution here!
   food = []
-  groceries.each  do |key, values|
-      food << key.values
-    end
-  food
+  groceries.values.flatten
 end
+second_challenge()
