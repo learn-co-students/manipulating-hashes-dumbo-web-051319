@@ -1,3 +1,4 @@
+
 def second_challenge
   groceries = {
    dairy: ["milk", "yogurt", "cheese"],
@@ -7,7 +8,9 @@ def second_challenge
   }
 
   #code your solution here!
-
-  
-
+  food = []
+  groceries.each  do |key, values|
+      food << key.values
+    end
+  food
 end
