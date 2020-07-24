@@ -7,7 +7,9 @@ def second_challenge
   }
 
   #code your solution here!
-
-  
-
+  ary = []
+  for i in 0...groceries.values.length
+    ary.concat(groceries.values[i])
+  end
+  return ary
 end
